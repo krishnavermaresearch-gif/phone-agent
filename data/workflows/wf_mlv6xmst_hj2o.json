@@ -1,0 +1,28 @@
+{
+  "id": "wf_mlv6xmst_hj2o",
+  "name": "Morning Gmail Summary Workflow",
+  "description": "At 9 AM daily, fetch unread Gmail messages, summarize them, and create a Google Doc with the summary.",
+  "steps": [
+    {
+      "id": "step_0",
+      "instruction": "Check Gmail for unread emails",
+      "status": "pending"
+    },
+    {
+      "id": "step_1",
+      "instruction": "Summarize the unread emails",
+      "status": "pending"
+    },
+    {
+      "id": "step_2",
+      "instruction": "Create a Google Doc with the summary",
+      "status": "pending"
+    }
+  ],
+  "currentStepIndex": 0,
+  "status": "created",
+  "context": {},
+  "createdAt": 1771610137518,
+  "lastStepAt": 1771610137518,
+  "executionCount": 0
+}

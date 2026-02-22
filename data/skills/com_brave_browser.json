@@ -1,0 +1,38 @@
+{
+  "appName": "Browser",
+  "packageName": "com.brave.browser",
+  "instructions": [],
+  "workflows": [
+    {
+      "task": "Check the current weather in New York. If it's raining, set a reminder to bring an umbrella. If it's sunny, set a reminder to pack sunglasses.",
+      "steps": [
+        "google_status({})",
+        "Open com.brave.browser",
+        "adb_wait({\"ms\":2000})",
+        "Read screen UI",
+        "Tap at (310, 111)",
+        "Type \"New York weather\"",
+        "Press ENTER",
+        "adb_wait({\"ms\":2000})",
+        "Read screen UI",
+        "calendar_create({\"title\":\"Pack sunglasses\",\"start_time\":)"
+      ],
+      "toolSequence": [
+        "google_status",
+        "adb_app_launch",
+        "adb_wait",
+        "adb_ui_tree",
+        "adb_tap",
+        "adb_type",
+        "adb_key",
+        "adb_wait",
+        "adb_ui_tree",
+        "calendar_create"
+      ],
+      "reward": 0.6,
+      "learnedAt": 1771665871941
+    }
+  ],
+  "successCount": 1,
+  "lastUpdated": 1771665871941
+}

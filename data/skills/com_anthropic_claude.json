@@ -1,0 +1,57 @@
+{
+  "appName": "Claude",
+  "packageName": "com.anthropic.claude",
+  "instructions": [],
+  "workflows": [
+    {
+      "task": "you  talk to claude ai   app      topic  antigravity    continue",
+      "steps": [
+        "Open com.anthropic.claude",
+        "adb_wait({\"ms\":2000})",
+        "Read screen UI",
+        "Tap at (364, 904)",
+        "Type \"antigravity\"",
+        "Press ENTER",
+        "adb_wait({\"ms\":2000})",
+        "Read screen UI",
+        "Tap at (364, 1411)",
+        "Type \"What are the challenges in ach\""
+      ],
+      "toolSequence": [
+        "adb_app_launch",
+        "adb_wait",
+        "adb_ui_tree",
+        "adb_tap",
+        "adb_type",
+        "adb_key",
+        "adb_wait",
+        "adb_ui_tree",
+        "adb_tap",
+        "adb_type",
+        "adb_key",
+        "adb_wait",
+        "adb_ui_tree",
+        "adb_tap",
+        "adb_type",
+        "adb_key",
+        "adb_wait",
+        "adb_ui_tree",
+        "adb_tap",
+        "adb_type",
+        "adb_key",
+        "adb_wait",
+        "adb_ui_tree",
+        "adb_tap",
+        "adb_wait",
+        "adb_type",
+        "adb_key",
+        "adb_wait",
+        "adb_ui_tree"
+      ],
+      "reward": 0.4,
+      "learnedAt": 1771622241113
+    }
+  ],
+  "successCount": 1,
+  "lastUpdated": 1771622241113
+}

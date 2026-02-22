@@ -1,0 +1,303 @@
+{
+  "id": "soul_devanya",
+  "name": "devanya",
+  "createdAt": 1771611281208,
+  "updatedAt": 1771613129779,
+  "observationDays": 1,
+  "maturityLevel": "infant",
+  "personalitySummary": "A night owl.",
+  "traits": [
+    {
+      "name": "Night Owl",
+      "value": 0.33333333333333337,
+      "evidence": "17% screen-on during late night hours"
+    },
+    {
+      "name": "Phone Dependency",
+      "value": 0.020833333333333332,
+      "evidence": "0.25h total screen time recorded"
+    },
+    {
+      "name": "Social Media Focus",
+      "value": 0.04,
+      "evidence": "4% of app time on social media"
+    },
+    {
+      "name": "Predictability",
+      "value": 0,
+      "evidence": "Behavioral consistency score: 0"
+    },
+    {
+      "name": "Routined",
+      "value": 0,
+      "evidence": "0 daily routines detected"
+    }
+  ],
+  "communicationStyle": "No communication data yet.",
+  "dailyRhythm": "Wakes around 7:00, sleeps around 23:00. Weekday avg: 0.25h screen time. Weekend avg: 0h screen time. Most used app: com.whatsapp.",
+  "usageProfile": {
+    "totalScreenTimeHours": 0.25,
+    "topApps": [
+      {
+        "appPackage": "com.whatsapp",
+        "totalTimeMs": 600183,
+        "sessionCount": 20,
+        "avgSessionMs": 30009.15,
+        "peakHours": [
+          23
+        ],
+        "transitionsTo": {
+          "com.miui.home": 1,
+          "com.instagram.android": 1
+        },
+        "transitionsFrom": {
+          "com.miui.home": 1
+        },
+        "lastUsed": 1771611992927
+      },
+      {
+        "appPackage": "com.miui.home",
+        "totalTimeMs": 120036,
+        "sessionCount": 4,
+        "avgSessionMs": 30009,
+        "peakHours": [
+          23
+        ],
+        "transitionsTo": {
+          "com.whatsapp": 1
+        },
+        "transitionsFrom": {
+          "com.whatsapp": 1
+        },
+        "lastUsed": 1771611782853
+      },
+      {
+        "appPackage": "com.brave.browser",
+        "totalTimeMs": 60026,
+        "sessionCount": 2,
+        "avgSessionMs": 30013,
+        "peakHours": [
+          23
+        ],
+        "transitionsTo": {
+          "com.android.settings": 1
+        },
+        "transitionsFrom": {
+          "com.instagram.android": 1
+        },
+        "lastUsed": 1771612082963
+      },
+      {
+        "appPackage": "com.instagram.android",
+        "totalTimeMs": 30008,
+        "sessionCount": 1,
+        "avgSessionMs": 30008,
+        "peakHours": [
+          23
+        ],
+        "transitionsTo": {
+          "com.brave.browser": 1
+        },
+        "transitionsFrom": {
+          "com.whatsapp": 1
+        },
+        "lastUsed": 1771612022941
+      },
+      {
+        "appPackage": "com.android.settings",
+        "totalTimeMs": 30004,
+        "sessionCount": 1,
+        "avgSessionMs": 30004,
+        "peakHours": [
+          23
+        ],
+        "transitionsTo": {
+          "com.android.camera": 1
+        },
+        "transitionsFrom": {
+          "com.brave.browser": 1
+        },
+        "lastUsed": 1771612112975
+      },
+      {
+        "appPackage": "com.android.camera",
+        "totalTimeMs": 0,
+        "sessionCount": 2,
+        "avgSessionMs": 0,
+        "peakHours": [
+          23
+        ],
+        "transitionsTo": {},
+        "transitionsFrom": {
+          "com.android.settings": 1
+        },
+        "lastUsed": 1771612172984
+      }
+    ],
+    "dailyRhythm": [
+      {
+        "hour": 0,
+        "topApps": [],
+        "screenOnPct": 0
+      },
+      {
+        "hour": 1,
+        "topApps": [],
+        "screenOnPct": 0
+      },
+      {
+        "hour": 2,
+        "topApps": [],
+        "screenOnPct": 0
+      },
+      {
+        "hour": 3,
+        "topApps": [],
+        "screenOnPct": 0
+      },
+      {
+        "hour": 4,
+        "topApps": [],
+        "screenOnPct": 0
+      },
+      {
+        "hour": 5,
+        "topApps": [],
+        "screenOnPct": 0
+      },
+      {
+        "hour": 6,
+        "topApps": [],
+        "screenOnPct": 0
+      },
+      {
+        "hour": 7,
+        "topApps": [],
+        "screenOnPct": 0
+      },
+      {
+        "hour": 8,
+        "topApps": [],
+        "screenOnPct": 0
+      },
+      {
+        "hour": 9,
+        "topApps": [],
+        "screenOnPct": 0
+      },
+      {
+        "hour": 10,
+        "topApps": [],
+        "screenOnPct": 0
+      },
+      {
+        "hour": 11,
+        "topApps": [],
+        "screenOnPct": 0
+      },
+      {
+        "hour": 12,
+        "topApps": [],
+        "screenOnPct": 0
+      },
+      {
+        "hour": 13,
+        "topApps": [],
+        "screenOnPct": 0
+      },
+      {
+        "hour": 14,
+        "topApps": [],
+        "screenOnPct": 0
+      },
+      {
+        "hour": 15,
+        "topApps": [],
+        "screenOnPct": 0
+      },
+      {
+        "hour": 16,
+        "topApps": [],
+        "screenOnPct": 0
+      },
+      {
+        "hour": 17,
+        "topApps": [],
+        "screenOnPct": 0
+      },
+      {
+        "hour": 18,
+        "topApps": [],
+        "screenOnPct": 0
+      },
+      {
+        "hour": 19,
+        "topApps": [],
+        "screenOnPct": 0
+      },
+      {
+        "hour": 20,
+        "topApps": [],
+        "screenOnPct": 0
+      },
+      {
+        "hour": 21,
+        "topApps": [],
+        "screenOnPct": 0
+      },
+      {
+        "hour": 22,
+        "topApps": [],
+        "screenOnPct": 0
+      },
+      {
+        "hour": 23,
+        "topApps": [
+          {
+            "app": "com.whatsapp",
+            "frequency": 20
+          },
+          {
+            "app": "com.miui.home",
+            "frequency": 4
+          },
+          {
+            "app": "com.brave.browser",
+            "frequency": 2
+          },
+          {
+            "app": "com.android.camera",
+            "frequency": 2
+          },
+          {
+            "app": "com.instagram.android",
+            "frequency": 1
+          }
+        ],
+        "screenOnPct": 100
+      }
+    ],
+    "weekdayAvgHours": 0.25,
+    "weekendAvgHours": 0,
+    "wakeHour": 7,
+    "sleepHour": 23,
+    "generatedAt": 1771613129777
+  },
+  "behavioralProfile": {
+    "routines": [],
+    "triggerActions": [],
+    "commonSequences": [],
+    "predictability": 0,
+    "totalDaysObserved": 1,
+    "generatedAt": 1771613129778
+  },
+  "observerStats": {
+    "totalSessions": 1,
+    "totalFrames": 30,
+    "totalAppsObserved": 6,
+    "totalScreenTimeHours": 0.25,
+    "oldestObservation": "2026-02-20",
+    "newestObservation": "2026-02-20",
+    "isRunning": false
+  }
+}

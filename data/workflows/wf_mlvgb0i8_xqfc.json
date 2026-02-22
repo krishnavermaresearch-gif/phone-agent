@@ -1,0 +1,23 @@
+{
+  "id": "wf_mlvgb0i8_xqfc",
+  "name": "WhatsApp Backup Workflow",
+  "description": "Automates backup of recent WhatsApp chats to a Google Doc",
+  "steps": [
+    {
+      "id": "step_0",
+      "instruction": "Open WhatsApp and read recent chats",
+      "status": "pending"
+    },
+    {
+      "id": "step_1",
+      "instruction": "Append chats to Google Docs titled \"WhatsAppBackup\"",
+      "status": "pending"
+    }
+  ],
+  "currentStepIndex": 0,
+  "status": "created",
+  "context": {},
+  "createdAt": 1771625878352,
+  "lastStepAt": 1771625878352,
+  "executionCount": 0
+}

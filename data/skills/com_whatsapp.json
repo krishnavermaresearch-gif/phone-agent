@@ -1,0 +1,43 @@
+{
+  "appName": "WhatsApp",
+  "packageName": "com.whatsapp",
+  "instructions": [
+    "Screenshots help when UI tree is unclear"
+  ],
+  "workflows": [
+    {
+      "task": "\"Start recording a trajectory. Open WhatsApp, read the last message from Mom, reply 'I'll call you later', take a screenshot as proof, then finish the trajectory with reward 1.0\"",
+      "steps": [
+        "Take screenshot",
+        "telemetry_toggle({\"enabled\":\"true\"})",
+        "Open com.whatsapp",
+        "adb_wait({\"ms\":2000})",
+        "Read screen UI",
+        "Tap at (181, 467)",
+        "adb_wait({\"ms\":2000})",
+        "Read screen UI",
+        "Tap at (360, 1400)",
+        "Type \"I'll call you later\""
+      ],
+      "toolSequence": [
+        "adb_screenshot",
+        "telemetry_toggle",
+        "adb_app_launch",
+        "adb_wait",
+        "adb_ui_tree",
+        "adb_tap",
+        "adb_wait",
+        "adb_ui_tree",
+        "adb_tap",
+        "adb_type",
+        "adb_tap",
+        "adb_screenshot",
+        "telemetry_export"
+      ],
+      "reward": 0.5,
+      "learnedAt": 1771611944060
+    }
+  ],
+  "successCount": 1,
+  "lastUpdated": 1771611944060
+}

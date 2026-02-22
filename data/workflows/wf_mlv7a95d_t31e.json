@@ -1,0 +1,28 @@
+{
+  "id": "wf_mlv7a95d_t31e",
+  "name": "Screenshot UI Capture Workflow",
+  "description": "A workflow that captures a screenshot, records the current UI tree, and persists the UI tree JSON to a file on the device for later reference.",
+  "steps": [
+    {
+      "id": "step_0",
+      "instruction": "Take a screenshot",
+      "status": "pending"
+    },
+    {
+      "id": "step_1",
+      "instruction": "Read the UI tree",
+      "status": "pending"
+    },
+    {
+      "id": "step_2",
+      "instruction": "Save the UI tree JSON to a file",
+      "status": "pending"
+    }
+  ],
+  "currentStepIndex": 0,
+  "status": "created",
+  "context": {},
+  "createdAt": 1771610726353,
+  "lastStepAt": 1771610726353,
+  "executionCount": 0
+}

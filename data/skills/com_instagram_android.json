@@ -1,0 +1,36 @@
+{
+  "appName": "Instagram",
+  "packageName": "com.instagram.android",
+  "instructions": [],
+  "workflows": [
+    {
+      "task": "\"Type 'Hello from the agent' in the search bar of any app\"",
+      "steps": [
+        "Open com.instagram.android",
+        "adb_wait({\"ms\":2000})",
+        "Read screen UI",
+        "Tap at (216, 1433)",
+        "adb_wait({\"ms\":1000})",
+        "Read screen UI",
+        "Tap at (360, 109)",
+        "adb_wait({\"ms\":500})",
+        "Type \"Hello from the agent\""
+      ],
+      "toolSequence": [
+        "adb_app_launch",
+        "adb_wait",
+        "adb_ui_tree",
+        "adb_tap",
+        "adb_wait",
+        "adb_ui_tree",
+        "adb_tap",
+        "adb_wait",
+        "adb_type"
+      ],
+      "reward": 0.6,
+      "learnedAt": 1771609682230
+    }
+  ],
+  "successCount": 1,
+  "lastUpdated": 1771609682230
+}

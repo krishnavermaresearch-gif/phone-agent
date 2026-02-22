@@ -1,0 +1,65 @@
+[
+  {
+    "id": "cron_1771611275530_s0c7zt",
+    "expression": "once:2026-02-20T23:54:00",
+    "task": "soul_observe_stop",
+    "description": "Stop passive observer after 10 mins",
+    "oneShot": true,
+    "createdAt": 1771611275530,
+    "enabled": true
+  },
+  {
+    "id": "cron_1771668373120_ceuzvl",
+    "expression": "*/30 * *",
+    "task": "heartbeat_audit",
+    "description": "30-minute system health check — notifications, battery, connectivity, workflows, security",
+    "oneShot": false,
+    "createdAt": 1771668373120,
+    "enabled": true
+  },
+  {
+    "id": "cron_1771668909127_htu6gr",
+    "expression": "*/30 * *",
+    "task": "heartbeat_audit",
+    "description": "30-minute system health check — notifications, battery, connectivity, workflows, security",
+    "oneShot": false,
+    "createdAt": 1771668909127,
+    "enabled": true
+  },
+  {
+    "id": "cron_1771669550595_k9skxe",
+    "expression": "*/30 * *",
+    "task": "heartbeat_audit",
+    "description": "30-minute system health check — notifications, battery, connectivity, workflows, security",
+    "oneShot": false,
+    "createdAt": 1771669550595,
+    "enabled": true
+  },
+  {
+    "id": "cron_1771674412014_z12l6a",
+    "expression": "*/30 * *",
+    "task": "heartbeat_audit",
+    "description": "30-minute system health check — notifications, battery, connectivity, workflows, security",
+    "oneShot": false,
+    "createdAt": 1771674412014,
+    "enabled": true
+  },
+  {
+    "id": "cron_1771674713022_hb8dq1",
+    "expression": "*/30 * *",
+    "task": "heartbeat_audit",
+    "description": "30-minute system health check — notifications, battery, connectivity, workflows, security",
+    "oneShot": false,
+    "createdAt": 1771674713022,
+    "enabled": true
+  },
+  {
+    "id": "cron_1771675740064_x2ksy7",
+    "expression": "*/30 * *",
+    "task": "heartbeat_audit",
+    "description": "30-minute system health check — notifications, battery, connectivity, workflows, security",
+    "oneShot": false,
+    "createdAt": 1771675740064,
+    "enabled": true
+  }
+]

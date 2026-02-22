@@ -1,0 +1,45 @@
+{
+  "appName": "Gmail",
+  "packageName": "com.google.android.gm",
+  "instructions": [
+    "Content may require scrolling to find"
+  ],
+  "workflows": [
+    {
+      "task": "delete   all   otp   gmail",
+      "steps": [
+        "gmail_search({\"max_results\":100,\"query\":\"subject:OTP\")",
+        "gmail_search({\"max_results\":100,\"query\":\"OTP\"})",
+        "gmail_search({\"max_results\":100,\"query\":\"\\\"verificati)",
+        "gmail_search({\"max_results\":10,\"query\":\"is:spam\"})",
+        "Read screen UI",
+        "Open com.google.android.gm",
+        "adb_wait({\"ms\":2000})",
+        "Read screen UI",
+        "Tap at (357, 119)",
+        "adb_wait({\"ms\":1000})"
+      ],
+      "toolSequence": [
+        "gmail_search",
+        "gmail_search",
+        "gmail_search",
+        "gmail_search",
+        "adb_ui_tree",
+        "adb_app_launch",
+        "adb_wait",
+        "adb_ui_tree",
+        "adb_tap",
+        "adb_wait",
+        "adb_ui_tree",
+        "adb_type",
+        "adb_wait",
+        "adb_swipe",
+        "adb_ui_tree"
+      ],
+      "reward": 0.5,
+      "learnedAt": 1771591107630
+    }
+  ],
+  "successCount": 1,
+  "lastUpdated": 1771591107630
+}

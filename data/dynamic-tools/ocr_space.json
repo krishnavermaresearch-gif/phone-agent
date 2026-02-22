@@ -1,0 +1,9 @@
+{
+  "name": "ocr_space",
+  "description": "OCR.space free API to extract text from image",
+  "parameters": {},
+  "required": [],
+  "language": "python",
+  "code": "import base64, requests\npath = 'telegram-media/photo_1771674750723.jpg'\nwith open(path,'rb') as f:\n    img_bytes = f.read()\nenc = base64.b64encode(img_bytes).decode()\n# Use OCR.space\npayload = {\n    'base64image': 'data:image/jpg;base64,'+enc,\n    'language': 'eng',\n    'isOverlayRequired': False\n}\nresponse = requests.post('https://api.ocr.space/parse/image', data=payload)\nprint(response.json())\n",
+  "createdAt": 1771674800152
+}

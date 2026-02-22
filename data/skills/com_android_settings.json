@@ -1,0 +1,59 @@
+{
+  "appName": "Settings",
+  "packageName": "com.android.settings",
+  "instructions": [
+    "Content may require scrolling to find"
+  ],
+  "workflows": [
+    {
+      "task": "Open Settings, go to WiFi, and tell me what network I'm connected to\"",
+      "steps": [
+        "Open com.android.settings",
+        "adb_wait({\"ms\":2000})",
+        "Read screen UI",
+        "Tap at (186, 955)",
+        "adb_wait({\"ms\":2000})",
+        "Read screen UI"
+      ],
+      "toolSequence": [
+        "adb_app_launch",
+        "adb_wait",
+        "adb_ui_tree",
+        "adb_tap",
+        "adb_wait",
+        "adb_ui_tree"
+      ],
+      "reward": 0.7,
+      "learnedAt": 1771609542039
+    },
+    {
+      "task": "\"Open Settings, navigate to Battery, and tell me the percentage — if a button moves, figure it out\"",
+      "steps": [
+        "Open com.android.settings",
+        "adb_wait({\"ms\":2000})",
+        "Read screen UI",
+        "Swipe from (540,1400) to (540,600)",
+        "adb_wait({\"ms\":1000})",
+        "Read screen UI",
+        "Tap at (317, 850)",
+        "adb_wait({\"ms\":1500})",
+        "Read screen UI"
+      ],
+      "toolSequence": [
+        "adb_app_launch",
+        "adb_wait",
+        "adb_ui_tree",
+        "adb_swipe",
+        "adb_wait",
+        "adb_ui_tree",
+        "adb_tap",
+        "adb_wait",
+        "adb_ui_tree"
+      ],
+      "reward": 0.65,
+      "learnedAt": 1771610844766
+    }
+  ],
+  "successCount": 2,
+  "lastUpdated": 1771610844766
+}

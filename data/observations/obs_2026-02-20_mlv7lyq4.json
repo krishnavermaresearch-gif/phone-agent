@@ -1,0 +1,317 @@
+{
+  "id": "obs_2026-02-20_mlv7lyq4",
+  "date": "2026-02-20",
+  "frames": [
+    {
+      "timestamp": 1771611302722,
+      "appPackage": "com.whatsapp",
+      "activity": ".Conversation",
+      "screenOn": true,
+      "dayOfWeek": 5,
+      "hourOfDay": 23,
+      "minuteOfDay": 1425
+    },
+    {
+      "timestamp": 1771611332730,
+      "appPackage": "com.whatsapp",
+      "activity": ".home.ui.HomeActivity",
+      "screenOn": true,
+      "dayOfWeek": 5,
+      "hourOfDay": 23,
+      "minuteOfDay": 1425
+    },
+    {
+      "timestamp": 1771611362734,
+      "appPackage": "com.whatsapp",
+      "activity": ".home.ui.HomeActivity",
+      "screenOn": true,
+      "dayOfWeek": 5,
+      "hourOfDay": 23,
+      "minuteOfDay": 1426
+    },
+    {
+      "timestamp": 1771611392738,
+      "appPackage": "com.whatsapp",
+      "activity": ".home.ui.HomeActivity",
+      "screenOn": true,
+      "dayOfWeek": 5,
+      "hourOfDay": 23,
+      "minuteOfDay": 1426
+    },
+    {
+      "timestamp": 1771611422750,
+      "appPackage": "com.whatsapp",
+      "activity": ".home.ui.HomeActivity",
+      "screenOn": true,
+      "dayOfWeek": 5,
+      "hourOfDay": 23,
+      "minuteOfDay": 1427
+    },
+    {
+      "timestamp": 1771611452755,
+      "appPackage": "com.whatsapp",
+      "activity": ".home.ui.HomeActivity",
+      "screenOn": true,
+      "dayOfWeek": 5,
+      "hourOfDay": 23,
+      "minuteOfDay": 1427
+    },
+    {
+      "timestamp": 1771611482768,
+      "appPackage": "com.whatsapp",
+      "activity": ".home.ui.HomeActivity",
+      "screenOn": true,
+      "dayOfWeek": 5,
+      "hourOfDay": 23,
+      "minuteOfDay": 1428
+    },
+    {
+      "timestamp": 1771611512777,
+      "appPackage": "com.whatsapp",
+      "activity": ".home.ui.HomeActivity",
+      "screenOn": true,
+      "dayOfWeek": 5,
+      "hourOfDay": 23,
+      "minuteOfDay": 1428
+    },
+    {
+      "timestamp": 1771611542781,
+      "appPackage": "com.whatsapp",
+      "activity": ".home.ui.HomeActivity",
+      "screenOn": true,
+      "dayOfWeek": 5,
+      "hourOfDay": 23,
+      "minuteOfDay": 1429
+    },
+    {
+      "timestamp": 1771611572788,
+      "appPackage": "com.whatsapp",
+      "activity": ".home.ui.HomeActivity",
+      "screenOn": true,
+      "dayOfWeek": 5,
+      "hourOfDay": 23,
+      "minuteOfDay": 1429
+    },
+    {
+      "timestamp": 1771611602798,
+      "appPackage": "com.whatsapp",
+      "activity": ".home.ui.HomeActivity",
+      "screenOn": true,
+      "dayOfWeek": 5,
+      "hourOfDay": 23,
+      "minuteOfDay": 1430
+    },
+    {
+      "timestamp": 1771611632813,
+      "appPackage": "com.whatsapp",
+      "activity": ".home.ui.HomeActivity",
+      "screenOn": true,
+      "dayOfWeek": 5,
+      "hourOfDay": 23,
+      "minuteOfDay": 1430
+    },
+    {
+      "timestamp": 1771611662816,
+      "appPackage": "com.whatsapp",
+      "activity": ".home.ui.HomeActivity",
+      "screenOn": true,
+      "dayOfWeek": 5,
+      "hourOfDay": 23,
+      "minuteOfDay": 1431
+    },
+    {
+      "timestamp": 1771611692829,
+      "appPackage": "com.miui.home",
+      "activity": ".launcher.Launcher",
+      "screenOn": true,
+      "dayOfWeek": 5,
+      "hourOfDay": 23,
+      "minuteOfDay": 1431
+    },
+    {
+      "timestamp": 1771611722838,
+      "appPackage": "com.miui.home",
+      "activity": ".launcher.Launcher",
+      "screenOn": true,
+      "dayOfWeek": 5,
+      "hourOfDay": 23,
+      "minuteOfDay": 1432
+    },
+    {
+      "timestamp": 1771611752853,
+      "appPackage": "com.miui.home",
+      "activity": ".launcher.Launcher",
+      "screenOn": true,
+      "dayOfWeek": 5,
+      "hourOfDay": 23,
+      "minuteOfDay": 1432
+    },
+    {
+      "timestamp": 1771611782853,
+      "appPackage": "com.miui.home",
+      "activity": ".launcher.Launcher",
+      "screenOn": true,
+      "dayOfWeek": 5,
+      "hourOfDay": 23,
+      "minuteOfDay": 1433
+    },
+    {
+      "timestamp": 1771611812865,
+      "appPackage": "com.whatsapp",
+      "activity": ".home.ui.HomeActivity",
+      "screenOn": true,
+      "dayOfWeek": 5,
+      "hourOfDay": 23,
+      "minuteOfDay": 1433
+    },
+    {
+      "timestamp": 1771611842880,
+      "appPackage": "com.whatsapp",
+      "activity": ".Conversation",
+      "screenOn": true,
+      "dayOfWeek": 5,
+      "hourOfDay": 23,
+      "minuteOfDay": 1434
+    },
+    {
+      "timestamp": 1771611872893,
+      "appPackage": "com.whatsapp",
+      "activity": ".Conversation",
+      "screenOn": true,
+      "dayOfWeek": 5,
+      "hourOfDay": 23,
+      "minuteOfDay": 1434
+    },
+    {
+      "timestamp": 1771611902899,
+      "appPackage": "com.whatsapp",
+      "activity": ".Conversation",
+      "screenOn": true,
+      "dayOfWeek": 5,
+      "hourOfDay": 23,
+      "minuteOfDay": 1435
+    },
+    {
+      "timestamp": 1771611932913,
+      "appPackage": "com.whatsapp",
+      "activity": ".Conversation",
+      "screenOn": true,
+      "dayOfWeek": 5,
+      "hourOfDay": 23,
+      "minuteOfDay": 1435
+    },
+    {
+      "timestamp": 1771611962921,
+      "appPackage": "com.whatsapp",
+      "activity": ".Conversation",
+      "screenOn": true,
+      "dayOfWeek": 5,
+      "hourOfDay": 23,
+      "minuteOfDay": 1436
+    },
+    {
+      "timestamp": 1771611992927,
+      "appPackage": "com.whatsapp",
+      "activity": ".Conversation",
+      "screenOn": true,
+      "dayOfWeek": 5,
+      "hourOfDay": 23,
+      "minuteOfDay": 1436
+    },
+    {
+      "timestamp": 1771612022941,
+      "appPackage": "com.instagram.android",
+      "activity": "com.instagram.mainactivity.InstagramMainActivity",
+      "screenOn": true,
+      "dayOfWeek": 5,
+      "hourOfDay": 23,
+      "minuteOfDay": 1437
+    },
+    {
+      "timestamp": 1771612052949,
+      "appPackage": "com.brave.browser",
+      "activity": "com.google.android.apps.chrome.Main",
+      "screenOn": true,
+      "dayOfWeek": 5,
+      "hourOfDay": 23,
+      "minuteOfDay": 1437
+    },
+    {
+      "timestamp": 1771612082963,
+      "appPackage": "com.brave.browser",
+      "activity": "com.google.android.apps.chrome.Main",
+      "screenOn": true,
+      "dayOfWeek": 5,
+      "hourOfDay": 23,
+      "minuteOfDay": 1438
+    },
+    {
+      "timestamp": 1771612112975,
+      "appPackage": "com.android.settings",
+      "activity": ".MainSettings",
+      "screenOn": true,
+      "dayOfWeek": 5,
+      "hourOfDay": 23,
+      "minuteOfDay": 1438
+    },
+    {
+      "timestamp": 1771612142979,
+      "appPackage": "com.android.camera",
+      "activity": ".Camera",
+      "screenOn": true,
+      "dayOfWeek": 5,
+      "hourOfDay": 23,
+      "minuteOfDay": 1439
+    },
+    {
+      "timestamp": 1771612172984,
+      "appPackage": "com.android.camera",
+      "activity": ".Camera",
+      "screenOn": true,
+      "dayOfWeek": 5,
+      "hourOfDay": 23,
+      "minuteOfDay": 1439
+    }
+  ],
+  "appTransitions": [
+    {
+      "timestamp": 1771611692829,
+      "fromApp": "com.whatsapp",
+      "toApp": "com.miui.home",
+      "durationInPreviousMs": 390107
+    },
+    {
+      "timestamp": 1771611812865,
+      "fromApp": "com.miui.home",
+      "toApp": "com.whatsapp",
+      "durationInPreviousMs": 120036
+    },
+    {
+      "timestamp": 1771612022941,
+      "fromApp": "com.whatsapp",
+      "toApp": "com.instagram.android",
+      "durationInPreviousMs": 210076
+    },
+    {
+      "timestamp": 1771612052949,
+      "fromApp": "com.instagram.android",
+      "toApp": "com.brave.browser",
+      "durationInPreviousMs": 30008
+    },
+    {
+      "timestamp": 1771612112975,
+      "fromApp": "com.brave.browser",
+      "toApp": "com.android.settings",
+      "durationInPreviousMs": 60026
+    },
+    {
+      "timestamp": 1771612142979,
+      "fromApp": "com.android.settings",
+      "toApp": "com.android.camera",
+      "durationInPreviousMs": 30004
+    }
+  ],
+  "totalScreenTimeMs": 900000,
+  "startTime": 1771611272716,
+  "endTime": 1771612172984
+}

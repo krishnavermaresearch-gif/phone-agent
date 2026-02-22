@@ -1,0 +1,39 @@
+{
+  "id": "wf_mlv894ds_sj82",
+  "name": "EmailReminderWorkflow",
+  "description": "Workflow to capture a screenshot, check Gmail for new emails, and create a calendar reminder with the first email's subject 30 minutes from now, recording the entire process as a trajectory.",
+  "steps": [
+    {
+      "id": "step_0",
+      "instruction": "Start trajectory recording",
+      "status": "pending"
+    },
+    {
+      "id": "step_1",
+      "instruction": "Take a screenshot",
+      "status": "pending"
+    },
+    {
+      "id": "step_2",
+      "instruction": "Check Gmail for new emails",
+      "status": "pending"
+    },
+    {
+      "id": "step_3",
+      "instruction": "Create Google Calendar reminder for the subject of the first email 30 minutes from now",
+      "condition": "gmail_inbox returned >0",
+      "status": "pending"
+    },
+    {
+      "id": "step_4",
+      "instruction": "Stop trajectory recording",
+      "status": "pending"
+    }
+  ],
+  "currentStepIndex": 0,
+  "status": "created",
+  "context": {},
+  "createdAt": 1771612353136,
+  "lastStepAt": 1771612353136,
+  "executionCount": 0
+}

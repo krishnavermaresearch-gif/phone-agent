@@ -1,0 +1,65 @@
+{
+  "appName": "Settings",
+  "packageName": "com.miui.settings",
+  "instructions": [
+    "Content may require scrolling to find"
+  ],
+  "workflows": [
+    {
+      "task": "Open Settings, go to About Phone, and tell me the phone model name and Android version",
+      "steps": [
+        "Open com.miui.settings",
+        "adb_app_list({\"all\":false})",
+        "adb_app_list({\"all\":true})",
+        "Open com.android.settings",
+        "adb_wait({\"ms\":2000})",
+        "Read screen UI",
+        "Swipe from (360,1400) to (360,600)",
+        "Read screen UI",
+        "Swipe from (360,1400) to (360,600)",
+        "Read screen UI"
+      ],
+      "toolSequence": [
+        "adb_app_launch",
+        "adb_app_list",
+        "adb_app_list",
+        "adb_app_launch",
+        "adb_wait",
+        "adb_ui_tree",
+        "adb_swipe",
+        "adb_ui_tree",
+        "adb_swipe",
+        "adb_ui_tree",
+        "adb_shell",
+        "adb_shell",
+        "adb_app_launch",
+        "adb_ui_tree",
+        "adb_tap",
+        "adb_wait",
+        "adb_ui_tree",
+        "adb_key",
+        "adb_wait",
+        "adb_ui_tree",
+        "adb_tap",
+        "adb_wait",
+        "adb_ui_tree",
+        "adb_swipe",
+        "adb_wait",
+        "adb_ui_tree",
+        "adb_app_launch",
+        "adb_wait",
+        "adb_ui_tree",
+        "adb_tap",
+        "adb_wait",
+        "adb_ui_tree",
+        "adb_swipe",
+        "adb_wait",
+        "adb_ui_tree"
+      ],
+      "reward": 0.4,
+      "learnedAt": 1771531936660
+    }
+  ],
+  "successCount": 1,
+  "lastUpdated": 1771531936660
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "timestamp": 1771665338524,
+    "tool": "adb_app_launch",
+    "command": "com.android.calculator2",
+    "blocked": false
+  },
+  {
+    "timestamp": 1771665342472,
+    "tool": "adb_app_launch",
+    "command": "com.miui.calculator",
+    "blocked": false
+  },
+  {
+    "timestamp": 1771665404051,
+    "tool": "adb_app_launch",
+    "command": "com.android.deskclock",
+    "blocked": false
+  },
+  {
+    "timestamp": 1771665417327,
+    "tool": "adb_app_launch",
+    "command": "com.google.android.deskclock",
+    "blocked": false
+  },
+  {
+    "timestamp": 1771665423379,
+    "tool": "adb_shell",
+    "command": "pm list packages | grep -i clock",
+    "blocked": false
+  },
+  {
+    "timestamp": 1771665425515,
+    "tool": "adb_app_launch",
+    "command": "com.android.deskclock",
+    "blocked": false
+  },
+  {
+    "timestamp": 1771665615381,
+    "tool": "adb_app_launch",
+    "command": "com.google.android.apps.maps",
+    "blocked": false
+  },
+  {
+    "timestamp": 1771665685581,
+    "tool": "adb_shell",
+    "command": "ls -l /sdcard/Pictures/Screenshots",
+    "blocked": false
+  },
+  {
+    "timestamp": 1771665688133,
+    "tool": "adb_shell",
+    "command": "find /sdcard -type f -name \"*screenshot*.png\" -o -name \"*Screenshot*.png\" 2>/dev/null | head",
+    "blocked": false
+  },
+  {
+    "timestamp": 1771665796559,
+    "tool": "adb_app_launch",
+    "command": "com.brave.browser",
+    "blocked": false
+  }
+]
