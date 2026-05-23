@@ -49,14 +49,45 @@ export interface IntegrationCredentials {
 
 const DATA_DIR = resolve(process.cwd(), "data");
 const STORE_FILE = resolve(DATA_DIR, "integrations.json");
+const ENCRYPTION_KEY_FILE = resolve(DATA_DIR, "encryption.key");
 const ALGO = "aes-256-gcm";
 
-// ─── Encryption ──────────────────────────────────────────────────────────────
+// ─── Encryption Key Management ───────────────────────────────────────────────
+
+function initializeEncryptionKey(): Buffer {
+    // If encryption key exists, load it
+    if (existsSync(ENCRYPTION_KEY_FILE)) {
+        try {
+            const keyData = readFileSync(ENCRYPTION_KEY_FILE, "utf-8").trim();
+            return Buffer.from(keyData, "hex");
+        } catch (err) {
+            logWarn(`Failed to load encryption key: ${err instanceof Error ? err.message : err}`);
+        }
+    }
+
+    // Generate new encryption key
+    const key = randomBytes(32); // 256 bits for AES-256
+    try {
+        if (!existsSync(DATA_DIR)) mkdirSync(DATA_DIR, { recursive: true });
+        writeFileSync(ENCRYPTION_KEY_FILE, key.toString("hex"), "utf-8");
+        logInfo("Generated new encryption key");
+    } catch (err) {
+        logWarn(`Failed to save encryption key: ${err instanceof Error ? err.message : err}`);
+    }
+
+    return key;
+}
+
+let encryptionKey: Buffer | null = null;
 
 function getEncKey(): Buffer {
-    const seed = `integration-store-${process.env.TELEGRAM_BOT_TOKEN ?? "default"}-salt`;
-    return createHash("sha256").update(seed).digest();
+    if (!encryptionKey) {
+        encryptionKey = initializeEncryptionKey();
+    }
+    return encryptionKey;
 }
+
+// ─── Encryption ──────────────────────────────────────────────────────────────
 
 function encrypt(data: string): string {
     const key = getEncKey();
