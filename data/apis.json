@@ -1,7 +1,7 @@
 {
   "gmail": {
     "name": "gmail",
-    "key": "AQ.Ab8RN6JBINSZmj2D5bgKvrDeZQiU90RLYWSnfb9U2vLFOy86Nw",
+    "key": "YOUR_GMAIL_API_KEY_HERE",
     "baseUrl": "https://gmail.googleapis.com",
     "addedAt": 1771535590190
   }
